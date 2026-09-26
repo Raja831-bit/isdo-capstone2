@@ -1,0 +1,6 @@
+# Keep LF line endings for all text files (stops the LF -> CRLF warnings on Windows)
+* text=auto eol=lf
+
+# PowerShell / batch scripts need Windows line endings
+*.ps1 text eol=crlf
+*.bat text eol=crlf
