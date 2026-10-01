@@ -7,7 +7,7 @@ Agent Card: GET /agent-card
 Submit task: POST /tasks
 Get result:  GET /tasks/{task_id}
 
-Run with:  uvicorn knowledge_specialist:app --port 8001 --reload
+Run with:  uvicorn a2a.knowledge_specialist:app --port 8001 --reload
 """
 
 import anthropic
